@@ -14,6 +14,16 @@ public class Province implements Area{
             ,new Region());
 
     @Override
+    public Location GetLocation() {
+        return null;
+    }
+
+    @Override
+    public List<Area> GetAreas() {
+        return null;
+    }
+
+    @Override
     public String GetName() {
         return null;
     }
