@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CountryTests {
     @Test
-    void blah(){
-        List<Province>provinces = Country.Provinces;
+    void givenACountryWith9ProvincesReturn9Provinces(){
+        List<Province> provinces = Country.Provinces;
         assertEquals(9,provinces.size());
     }
 }
